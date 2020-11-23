@@ -1,0 +1,156 @@
+body{
+    overflow-x:hidden;
+}
+.header .search-box{
+    animation: fade ease-in 3s;
+    animation-iteration-count: 1;
+    width: 62%;border: 3px solid#7621a7;
+    margin-left: 18%;outline: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+.header .content-opt .opt-menu a{
+     text-decoration: none;
+     color:black;
+     }
+
+.header .content-opt .opt-menu td{
+    position: absolute;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 31px;
+    margin-bottom: 55px;
+    margin-top: 3px;
+    
+}
+.header .content-opt .opt-menu .active{
+    color: #7621a7;
+}
+.header .content-opt .opt-menu i:hover:not(.active){
+    color: green;
+}
+.header .content-opt .opt-menu i{
+    font-size: 40px; 
+    color:green;
+}
+/* Checkbox for option " one way" or "rount trip" */
+/* end Checkbox for option " one way" or "rount trip" */
+.cont-value .form-get-val{
+    width: 33.33333%;
+    height: 100px;
+    float: left;
+    padding: 0px 0px;
+}
+.cont-value .form-get-val select{
+width: 100%;
+font-size: 15px;
+height: 40px;
+font-family: sans-serif;
+border: none;
+background: whitesmoke;
+cursor: pointer;}
+.cont-value .form-get-val input{
+cursor: pointer;
+width: 100%;
+font-size: 15px;
+height: 40px;
+font-family: sans-serif;
+border: none;
+background: whitesmoke; 
+}
+.cont-value .form-get-val fieldset:hover, .cont-value .form-get-val select:hover,.cont-value .form-get-val input:hover{background: white;}
+.cont-value form input[type="submit"]{
+    color: white;
+    cursor: pointer;
+    background:#7621a7;
+    margin-left: -176px;
+    font-size: 30px;
+    font-family: roboto;
+    text-align: center;
+    margin-top: 46px;
+    border: 1px solid #7621a7;
+    border-radius: 16px;
+    outline: none;
+    padding: -16px 0px;
+    height: 46px; 
+    }
+.cont-value form input[type="submit"]:hover{
+    background:white;
+    border:2px solid #7621a7;
+     color:#7621a7 }
+.dddddddd{
+transition: 2s;
+width: 80%;
+margin-left: 10%;
+margin-top: 61vh;
+background: white;
+outline: none;
+border-radius: 10px;
+}
+.dddddddd:hover{transform: scale(1.2);}
+.dddddddd .dd-div{width: 20%;
+float: left;
+text-transform: uppercase;
+}
+.dddddddd .dd-div h1{
+    margin-top: 30px;
+}
+.dddddddd .dd-div1{ 
+float: left;
+width: 19%; 
+border-left:1px solid gray;
+height: 115px;
+}
+.dddddddd .dd-div1 h4{
+margin-left: 10px;
+margin-top: -1px;
+font-family: cabin sketch;
+color: #7621a7;
+font-size: 20px;
+padding: 5px;
+}
+.dddddddd .dd-div1 p{
+margin-left: 10px;
+margin-top: -13px;
+font-family: cursive;
+font-size: 15px;
+color: black;
+}
+
+
+.fdetail_cont{
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;}
+	.fdetail_cont .fdetail{
+	animation-iteration-count: 1;
+    animation: evenfade ease-in 3s;
+    width: 77%;
+    height: 174px;
+    background: white;
+    text-align: center;
+    display: block;
+    position: relative;
+    border: 1px solid #a6a6a6;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    margin-left: 12%;
+    box-shadow: 2px 2px 2px #9b9e9c;
+	}
+		.fdetail_cont .fdetail img{
+	width: 168px;
+    float: left;
+    align-items: center;
+    margin-top: 13px;
+    border-radius: 60%;
+    height: 150px;
+	}
+		.fdetail_cont .fdetail .aaaa .tag{ font-size: 15px; }
+		.fdetail_cont .fdetail .aaaa{ float: left; text-align: center; font-family: sans-serif; font-size: 50px; margin-top: 20px; margin-bottom: 20px;  }
+		.fdetail_cont .fdetail .aaaa span:not(.not){padding-left: 72px;}
+		.fdetail_cont .fdetail .aaaa span:not(.tag){font-size: 25px;}
+		.fdetail_cont .fdetail .aaaa .btn a{text-decoration: none; background: #18a30b; border: 1px solid #0d5906; color: white; border-radius: 10px; outline: none; padding: 5px;}
+	.btn a:hover{color: red;}

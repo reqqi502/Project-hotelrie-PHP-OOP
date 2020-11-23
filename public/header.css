@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  overflow-x:hidden;
+}
+video{
+    box-shadow: 1px 10px 10px #888;
+    background-color: #000000;
+}
+nav{
+    overflow: hidden;
+    background-color:rgba(255,255,255,.9);
+}
+nav h1{
+    margin:30px   
+}
+nav ul {
+    text-decoration:none;
+    float: right;
+    display: inline;
+    font-family:arial;
+     
+
+}
+nav ul li{
+    display: inline; 
+}
+.navbar-light{
+    background-color:#f9f9f9;
+}
+  .text-typing {
+    padding: 1px ;
+    background: #f2b203;
+    font-size: 25px;
+    color: antiquewhite;
+    font-family:cursive;
+    width:100%;
+
+    
+  }
+  .covid {
+    height: 33px;
+    background: #ececec;
+    font-size: 12px;
+    font-family: monospace;
+    color: black;
+    margin-top: 3px;
+    font-family:cursive;
+}
+  
+  .text-typing p {
+    white-space:nowrap;
+    overflow:hidden;
+    text-align:center;
+    animation:typing 4s steps(22,end) forwards,blink 1s infinite;
+  }
+  .vd1{
+    margin: 30px 0px 0px 20px;
+    position: absolute;
+    z-index: 4;
+  }
+  .vd2{
+    margin: -170px 0px 0px 920px;
+    position: absolute;z-index: 1;
+  }
+  .vd3{
+    margin: -480px 0px 0px 920px;
+    position: absolute;z-index: 1;
+  }
+  .pse1{
+    color: white;
+    max-width: 348px;
+    font-size:20px
+  }
+  .pse2{
+    color: white;
+    max-width: 348px;
+    font-size:20px
+  }
+  .pse3{
+    color: white;max-width: 348px;
+    font-size:20px
+  }
+  .vde1{
+    height: 375%;
+    margin-top: -4px;
+    object-fit: cover;
+    width: 53%;
+  }
+  .vde2{
+    height: 36%;
+    width: 46%;
+    margin: 0px 0px 0px 6px;
+    position: absolute;
+    object-fit: cover;
+}
+  .vde3{
+    height: 39%;
+    width: 46%;
+    margin: 295px 0px 0px 6px;
+    position:absolute;
+}
+  @keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:2px solid transparent;
+    }
+    50% {
+      border-right:2px solid #222;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .vd2{
+      visibility:hidden;
+    }
+    .vd3{
+      visibility:hidden;
+    }
+    
+    .vde2{
+        visibility:hidden;
+      }
+      .vde3{
+        visibility:hidden;
+      }
+      .vde1{
+        height:50vh;
+        width:100%;
+      }
+      .pse1{
+        
+        margin-left:60px;
+      }
+      .text-typing {
+        background:#f2b203;
+        font-size: 15px;
+    
+        
+      }
+     
+      
+    }
+    

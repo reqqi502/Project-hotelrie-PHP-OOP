@@ -1,0 +1,28 @@
+.to-top{
+    position:fixed;
+    width:50px;
+    height:58px;
+    background:#7621a7;
+    bottom:16px;
+    right:32px;
+    z-index:10;
+    border-radius:58%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+    color:white;
+    opacity:0;
+    text-decoration:none;
+    pointer-events:none;
+    transition:all .4s;
+  }
+  .to-top:hover{
+    color:white;
+    text-decoration: none;
+  }
+  .to-top.active{
+    bottom:32px;
+    pointer-events:auto;
+    opacity:1;
+  }

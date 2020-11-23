@@ -1,0 +1,31 @@
+.containt{
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 17px #888888;
+    max-width: 140vh;
+    margin-left: 180px;
+    text-align: center;
+
+
+}
+.containt input{
+    width: 363px;
+    height: 38px;
+    border-radius: 25% 10%;
+    padding: 26px 19px;
+}
+.containt button{
+    width: 274px;
+    height: 38px;
+    background-color:blue;
+    border-radius: 25% 10%;
+    margin:20px;
+    margin-left: 50px;
+}
+.containt select{
+    width: 274px;
+    height: 38px;
+    background-color:blue;
+    border-radius: 25% 10%;
+}
+
+

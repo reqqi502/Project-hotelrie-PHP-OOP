@@ -1,0 +1,33 @@
+.print{display: none;}
+@media print{
+    .site-name,.footer,.contain{display: none;}
+    .print{display: block;}
+}
+.main{width: 150%;font-family: cabin sketch;float: left;margin: -190px 0px 0px -629px;
+}
+.main .sub{width: 100%;float: left;position: relative;
+}
+.main .sub .head{border:1px solid skyblue;border-radius: 20px 0 20px 0/20px 0 20px 0;border-outline:none;height: 35px;color: white;background:linear-gradient(to left,#03018c,#1ae8e8,#03018c);font-size: 35px;
+}
+.main .sub .head h2{margin-left: 5px; text-decoration: none;font-size: 20px; margin-top: -1px;margin-top: 5px;}
+.main .sub .body{width: 100%;border:1px solid gray;border-radius:  0 20px 0 20px/ 0 20px 0 20px;    padding: 0px 12px;
+}
+.main .sub .body .qr{float: right; margin-top: -110px; margin-right: 20px;}
+.main .sub .body .qr img{width: 100px;height: 100px;
+}
+.main1{width: 25%;font-family: cabin sketch;margin-left: 103vh;
+}.main1 .head{border:1px solid skyblue;border-radius: 0 20px 0 20px/ 0 20px 0 20px;border-outline:none;height: 35px;color: skyblue;background:linear-gradient(to left,#03018c,whitesmoke,#03018c);	
+}.main1 .head h2{ text-decoration: none;font-size: 20px; margin-top: -1px;margin-top: 5px;
+}.main1 .body1{width: 100%;border:1px solid gray;border-radius:  20px 0 20px 0/20px 0 20px 0;padding: 0px 21px;}
+.print .main11{width: 50%;font-family: cabin sketch;margin-left: 200px;
+}.print .main11 .head{
+    border:1px solid #03018c;
+    border-radius: 0 20px 0 20px/ 0 20px 0 20px;
+    border-outline:none;
+    height: 35px;
+    color: skyblue;background:linear-gradient(to left,#03018c,#03018c,#03018c);	
+}.print .main11 .head h2{text-align: right;color:black; text-decoration: none;font-size: 20px; margin-top: -1px;margin-top: 5px;
+}.print .main11 .body1{width: 100%;border:1px solid gray;border-radius:  20px 0 20px 0/20px 0 20px 0;}
+.down i{color:#2ffa44;}
+.down i:hover{color:gray;
+}
